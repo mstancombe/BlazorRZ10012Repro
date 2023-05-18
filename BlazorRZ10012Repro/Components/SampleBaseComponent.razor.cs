@@ -13,7 +13,7 @@ using BlazorRZ10012Repro;
 
 namespace BlazorRZ10012Repro.Components
 {
-    //Uncomment the //: ComponentBase to observe that the RZ10012 warning goes away with a code behind that explicitly inherits from ComponentBase
+    //#review Uncomment the //: ComponentBase to observe that the RZ10012 warning goes away with a code behind that explicitly inherits from ComponentBase
     public partial class SampleBaseComponent //: ComponentBase
     {
         protected virtual int SomeCount => 5;
